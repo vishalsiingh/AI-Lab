@@ -23,7 +23,9 @@ def input_graph():
         neighbours = input(f"Enter the neighbors of {node} separated by spaces: ").split()
         graph[node] = neighbours
     return graph
+
 visited=set()
+
 graph = input_graph()
 start_node = input("Enter the starting node for DFS: ")
 print("Following is the Depth-First Search:")
