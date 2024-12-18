@@ -27,7 +27,7 @@ def input_graph():
         graph[node] = neighbours
     return graph
 
-# Main execution
+
 visited = []
 queue = []
 

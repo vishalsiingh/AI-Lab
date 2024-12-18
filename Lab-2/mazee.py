@@ -84,7 +84,7 @@ def findEnd(maze, moves):
         return True
     return False
 
-# Main execution
+
 nums = queue.Queue()
 nums.put("")
 add = ""
