@@ -58,9 +58,12 @@ q=queue.Queue()
 q.put("0")
 q.put("1")
 
-for _ in range(15):
-    x=q.get()
-    print(x)
-    q.put(x+ "0")
-    q.put(x+ "1")
+# for _ in range(15):
+#     x=q.get()
+#     print(x)
+#     q.put(x+ "0")
+#     q.put(x+ "1")
+    
+    
+    
     
